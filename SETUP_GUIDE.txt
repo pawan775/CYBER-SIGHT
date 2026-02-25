@@ -1,0 +1,55 @@
+# CYBER-SIGHT
+## ML & AI Based Cyber Crime Detection and Safety Platform
+
+### For Indian Police & Law Enforcement
+
+---
+
+## INSTALLATION GUIDE
+
+### Requirements:
+- Windows 10/11
+- Python 3.10 or higher
+- Internet connection (for first-time setup)
+
+### Step 1: Install Python (if not installed)
+1. Download from: https://www.python.org/downloads/
+2. IMPORTANT: Check "Add Python to PATH" during installation
+3. Restart your computer after installation
+
+### Step 2: Install Cyber-Sight
+1. Extract this folder to your desired location (e.g., C:\CyberSight)
+2. Double-click INSTALL.bat
+3. Wait for installation to complete (5-10 minutes)
+
+### Step 3: Run the Application
+- Double-click RUN_APP.bat
+- Browser will open automatically at http://localhost:8501
+
+---
+
+## LOGIN CREDENTIALS
+
+| Username | Password | Role |
+|----------|----------|------|
+| admin | admin123 | Administrator |
+| officer1 | officer123 | Police Officer |
+| analyst1 | analyst123 | Crime Analyst |
+| viewer1 | viewer123 | Viewer |
+
+---
+
+## FEATURES
+
+1. Cyber Threat Detection - ML-powered threat analysis
+2. URL Safety Checker - Check suspicious URLs
+3. AI Chatbot - Cybersecurity assistant
+4. India Crime Map - State-wise crime visualization
+5. State Predictions - ML predictions up to 2045
+6. Live Threat Monitor - Real-time threat feed
+7. Case Management - Track cyber crime cases
+
+---
+
+Version: 2.0.0
+Developed for: Indian Police Cyber Crime Units

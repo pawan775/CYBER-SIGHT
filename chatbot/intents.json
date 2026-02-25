@@ -1,0 +1,333 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi", "hello", "hey", "good morning", "good afternoon", "good evening",
+        "what's up", "how are you", "greetings", "howdy", "hi there"
+      ],
+      "responses": [
+        "Hello! I'm the Cyber-Sight AI Assistant. How can I help you stay safe online today?",
+        "Hi there! I'm here to help you with cybersecurity questions. What would you like to know?",
+        "Greetings! I'm your cyber security advisor. Ask me anything about staying safe online!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye", "goodbye", "see you", "take care", "exit", "quit", "thanks bye",
+        "good bye", "see ya", "later"
+      ],
+      "responses": [
+        "Goodbye! Stay safe online! 🔒",
+        "Take care! Remember to always verify before you click!",
+        "Bye! Don't forget to keep your software updated for better security!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you", "thanks", "thanks a lot", "appreciate it", "thank u",
+        "thx", "ty", "much appreciated"
+      ],
+      "responses": [
+        "You're welcome! Stay cyber-safe! 🛡️",
+        "Happy to help! Remember, security is everyone's responsibility!",
+        "Anytime! Don't hesitate to ask if you have more security questions!"
+      ]
+    },
+    {
+      "tag": "what_is_hacking",
+      "patterns": [
+        "what is hacking", "define hacking", "explain hacking", "what does hacking mean",
+        "tell me about hacking", "hacking definition", "what's hacking",
+        "how does hacking work", "what is a hacker", "who are hackers"
+      ],
+      "responses": [
+        "🔓 **Hacking** refers to the practice of exploiting weaknesses in computer systems, networks, or software to gain unauthorized access.\n\n**Types of Hackers:**\n• **White Hat** - Ethical hackers who help find security flaws\n• **Black Hat** - Malicious hackers who exploit systems for personal gain\n• **Grey Hat** - Operate between ethical and malicious intent\n\n**Common Hacking Methods:**\n1. Phishing attacks\n2. Malware injection\n3. SQL injection\n4. Password cracking\n5. Social engineering\n\n**Prevention:** Use strong passwords, enable 2FA, keep software updated, and be cautious of suspicious links."
+      ]
+    },
+    {
+      "tag": "what_is_phishing",
+      "patterns": [
+        "what is phishing", "explain phishing", "phishing meaning", "tell me about phishing",
+        "how does phishing work", "phishing attack", "what's phishing",
+        "phishing definition", "email phishing", "spear phishing"
+      ],
+      "responses": [
+        "🎣 **Phishing** is a cyber attack where criminals impersonate legitimate organizations to steal sensitive information.\n\n**How It Works:**\n1. Attacker sends fake emails/messages that look legitimate\n2. Messages contain malicious links or attachments\n3. Victims are tricked into entering personal data\n4. Information is stolen and misused\n\n**Types of Phishing:**\n• **Email Phishing** - Mass emails impersonating banks, services\n• **Spear Phishing** - Targeted attacks on specific individuals\n• **Whaling** - Targeting high-profile executives\n• **Smishing** - Phishing via SMS messages\n• **Vishing** - Voice/phone call phishing\n\n**Red Flags:**\n⚠️ Urgent language ('Act now!')\n⚠️ Suspicious sender addresses\n⚠️ Grammar/spelling errors\n⚠️ Requests for personal information\n⚠️ Suspicious links or attachments"
+      ]
+    },
+    {
+      "tag": "what_is_malware",
+      "patterns": [
+        "what is malware", "explain malware", "malware meaning", "types of malware",
+        "tell me about malware", "malicious software", "what's malware",
+        "virus vs malware", "computer virus"
+      ],
+      "responses": [
+        "🦠 **Malware** (Malicious Software) is any software intentionally designed to cause damage to computers, servers, or networks.\n\n**Common Types:**\n\n1. **Virus** - Attaches to files and spreads when executed\n2. **Worm** - Self-replicates across networks without user action\n3. **Trojan** - Disguises as legitimate software\n4. **Ransomware** - Encrypts files and demands payment\n5. **Spyware** - Secretly monitors user activity\n6. **Adware** - Displays unwanted advertisements\n7. **Rootkit** - Hides malicious activities from detection\n8. **Keylogger** - Records keystrokes to steal passwords\n\n**Protection Tips:**\n✅ Install reputable antivirus software\n✅ Keep all software updated\n✅ Don't download from untrusted sources\n✅ Avoid suspicious email attachments\n✅ Regular system scans"
+      ]
+    },
+    {
+      "tag": "what_is_ransomware",
+      "patterns": [
+        "what is ransomware", "ransomware attack", "explain ransomware", "ransomware meaning",
+        "how does ransomware work", "ransomware prevention", "ransomware examples",
+        "cryptolocker", "wannacry"
+      ],
+      "responses": [
+        "💰 **Ransomware** is a type of malware that encrypts your files and demands payment (ransom) for the decryption key.\n\n**How It Works:**\n1. Infection via phishing email, malicious download, or exploit\n2. Malware encrypts important files\n3. Ransom note displayed demanding payment (usually cryptocurrency)\n4. Files remain locked until ransom paid (no guarantee of recovery)\n\n**Famous Examples:**\n• WannaCry (2017) - Affected 200,000+ computers globally\n• NotPetya (2017) - $10 billion in damages\n• REvil/Sodinokibi - Major corporate attacks\n\n**Prevention:**\n✅ Regular backups (offline/cloud)\n✅ Keep systems patched\n✅ Email filtering\n✅ Employee security training\n✅ Network segmentation\n\n**If Infected:**\n🚫 Don't pay the ransom\n📞 Report to authorities\n💾 Restore from backups"
+      ]
+    },
+    {
+      "tag": "password_security",
+      "patterns": [
+        "password tips", "how to create strong password", "password security",
+        "secure password", "password best practices", "password advice",
+        "how to make password safe", "strong password", "password recommendations"
+      ],
+      "responses": [
+        "🔐 **Password Security Best Practices:**\n\n**Creating Strong Passwords:**\n• Minimum 12-16 characters\n• Mix uppercase, lowercase, numbers, symbols\n• Avoid personal information (names, birthdays)\n• Don't use common words or patterns\n• Use passphrases: 'Purple-Elephant-Runs-Fast-42!'\n\n**Password Management:**\n✅ Use a password manager (Bitwarden, 1Password, LastPass)\n✅ Enable Two-Factor Authentication (2FA) everywhere\n✅ Never reuse passwords across sites\n✅ Change passwords after breaches\n✅ Check if compromised: haveibeenpwned.com\n\n**What NOT to Do:**\n❌ Write passwords on sticky notes\n❌ Share passwords via email/chat\n❌ Use 'password123' or 'qwerty'\n❌ Use same password everywhere\n❌ Store passwords in plain text files"
+      ]
+    },
+    {
+      "tag": "two_factor_auth",
+      "patterns": [
+        "what is 2fa", "two factor authentication", "2fa meaning", "explain 2fa",
+        "mfa", "multi factor authentication", "how to enable 2fa",
+        "authentication app", "google authenticator"
+      ],
+      "responses": [
+        "🔑 **Two-Factor Authentication (2FA/MFA)** adds an extra layer of security beyond just passwords.\n\n**How It Works:**\n1. **Something you know** - Password\n2. **Something you have** - Phone, security key\n3. **Something you are** - Fingerprint, face recognition\n\n**Types of 2FA:**\n• **SMS Codes** - Code sent via text (least secure)\n• **Authenticator Apps** - Google Authenticator, Authy, Microsoft Authenticator\n• **Hardware Keys** - YubiKey, Google Titan\n• **Biometrics** - Fingerprint, Face ID\n• **Email Codes** - Verification links/codes\n\n**Why Use 2FA:**\n✅ Blocks 99.9% of automated attacks\n✅ Protects against password breaches\n✅ Required for many compliance standards\n\n**Recommended Apps:**\n📱 Google Authenticator\n📱 Microsoft Authenticator\n📱 Authy (with backup)\n📱 1Password"
+      ]
+    },
+    {
+      "tag": "social_engineering",
+      "patterns": [
+        "what is social engineering", "social engineering attacks", "explain social engineering",
+        "social engineering examples", "how to prevent social engineering",
+        "manipulation attacks", "pretexting", "baiting attack"
+      ],
+      "responses": [
+        "🎭 **Social Engineering** is the art of manipulating people into giving up confidential information or performing actions that compromise security.\n\n**Common Techniques:**\n\n1. **Phishing** - Fake emails/websites\n2. **Pretexting** - Creating false scenarios to gain trust\n3. **Baiting** - Offering something enticing (free USB drives)\n4. **Quid Pro Quo** - Offering services in exchange for info\n5. **Tailgating** - Following authorized person into secure area\n6. **Vishing** - Voice/phone manipulation\n\n**Warning Signs:**\n⚠️ Urgent requests for information\n⚠️ Requests to bypass security procedures\n⚠️ Offers that seem too good to be true\n⚠️ Unknown people claiming authority\n⚠️ Pressure to act quickly\n\n**Prevention:**\n✅ Verify identities before sharing info\n✅ Don't click unknown links\n✅ Question unusual requests\n✅ Security awareness training\n✅ Report suspicious contacts"
+      ]
+    },
+    {
+      "tag": "safe_browsing",
+      "patterns": [
+        "how to browse safely", "safe browsing tips", "internet safety",
+        "online safety tips", "secure browsing", "safe surfing",
+        "web security tips", "browser security"
+      ],
+      "responses": [
+        "🌐 **Safe Browsing Tips:**\n\n**Browser Security:**\n✅ Keep browser updated\n✅ Use HTTPS-only mode\n✅ Enable pop-up blocker\n✅ Use ad blockers (uBlock Origin)\n✅ Clear cookies regularly\n✅ Use private/incognito mode for sensitive tasks\n\n**Website Safety:**\n🔒 Check for HTTPS (padlock icon)\n🔍 Verify URLs carefully\n⚠️ Avoid suspicious downloads\n🚫 Don't trust pop-up warnings\n📧 Don't enter info on sites from email links\n\n**Recommended Extensions:**\n• uBlock Origin - Ad blocker\n• HTTPS Everywhere - Force secure connections\n• Privacy Badger - Block trackers\n• Bitwarden - Password manager\n\n**General Tips:**\n• Use VPN on public WiFi\n• Don't save passwords in browser\n• Log out of accounts when done\n• Review site permissions regularly"
+      ]
+    },
+    {
+      "tag": "public_wifi_safety",
+      "patterns": [
+        "is public wifi safe", "public wifi security", "wifi safety",
+        "how to use public wifi safely", "coffee shop wifi", "airport wifi",
+        "hotel wifi security", "free wifi danger"
+      ],
+      "responses": [
+        "📶 **Public WiFi Security:**\n\n**Risks of Public WiFi:**\n⚠️ Man-in-the-Middle attacks\n⚠️ Unencrypted networks\n⚠️ Fake hotspots (Evil Twin)\n⚠️ Packet sniffing\n⚠️ Session hijacking\n\n**Safety Tips:**\n\n**DO:**\n✅ Use a VPN (Virtual Private Network)\n✅ Verify network name with staff\n✅ Use mobile data for sensitive tasks\n✅ Enable firewall\n✅ Use HTTPS websites only\n✅ Turn off auto-connect\n\n**DON'T:**\n❌ Access banking/financial accounts\n❌ Enter passwords without VPN\n❌ Share files\n❌ Keep WiFi on when not needed\n❌ Trust 'Free WiFi' networks\n\n**Recommended VPNs:**\n• NordVPN\n• ExpressVPN\n• ProtonVPN (free tier available)\n• Mullvad"
+      ]
+    },
+    {
+      "tag": "data_breach",
+      "patterns": [
+        "what is data breach", "data breach meaning", "my data was leaked",
+        "what to do after data breach", "data leak", "information breach",
+        "company data breach", "password leaked"
+      ],
+      "responses": [
+        "🚨 **Data Breach Response Guide:**\n\n**What is a Data Breach?**\nUnauthorized access to confidential data - passwords, emails, financial info, personal details.\n\n**If Your Data Was Breached:**\n\n**Immediate Steps:**\n1. 🔑 Change passwords for affected accounts\n2. 🔐 Enable 2FA on all accounts\n3. 💳 Monitor financial statements\n4. 📧 Watch for phishing attempts\n5. 🔔 Set up fraud alerts with credit bureaus\n\n**Check If You're Affected:**\n🔍 haveibeenpwned.com - Check email/password breaches\n🔍 Monitor breach notifications from services\n\n**Long-term Protection:**\n✅ Use unique passwords for each account\n✅ Consider credit freeze\n✅ Review account activity regularly\n✅ Use identity monitoring services\n\n**Report Breaches:**\n📞 Contact affected companies\n🏛️ Report to authorities (FTC, local cybercrime unit)\n💳 Alert your bank if financial data exposed"
+      ]
+    },
+    {
+      "tag": "cyber_attack_response",
+      "patterns": [
+        "what to do after cyber attack", "i was hacked", "computer hacked",
+        "account compromised", "someone hacked my account", "cyber attack help",
+        "hacked what now", "my email was hacked"
+      ],
+      "responses": [
+        "🆘 **After a Cyber Attack - Emergency Response:**\n\n**Immediate Actions:**\n\n1. **Stay Calm** - Don't panic, act methodically\n\n2. **Disconnect** - Disconnect infected device from network\n\n3. **Change Passwords:**\n   • Start with email (used for recovery)\n   • Then banking/financial accounts\n   • Then social media\n   • Use a clean device!\n\n4. **Enable 2FA** on all accounts\n\n5. **Scan for Malware:**\n   • Run antivirus scan\n   • Use Malwarebytes for deep scan\n\n6. **Check Financial Accounts:**\n   • Review recent transactions\n   • Contact bank if suspicious activity\n\n7. **Document Everything:**\n   • Screenshots of suspicious activity\n   • Timeline of events\n   • Any ransom messages\n\n**Report To:**\n• Local police (cybercrime unit)\n• National cyber agency (FBI IC3, CERT)\n• Affected service providers\n• Your employer (if work device)\n\n**Recovery:**\n• Restore from clean backups\n• Update all software\n• Consider professional help for serious breaches"
+      ]
+    },
+    {
+      "tag": "identity_theft",
+      "patterns": [
+        "what is identity theft", "identity theft prevention", "someone stole my identity",
+        "protect from identity theft", "identity fraud", "identity theft help",
+        "personal information stolen"
+      ],
+      "responses": [
+        "👤 **Identity Theft Protection:**\n\n**What is Identity Theft?**\nWhen someone uses your personal information (SSN, credit card, etc.) without permission for fraud.\n\n**Warning Signs:**\n⚠️ Unfamiliar accounts/charges\n⚠️ Bills for unknown services\n⚠️ Debt collection calls for unknown debts\n⚠️ Tax return already filed\n⚠️ Medical bills for services you didn't receive\n\n**Prevention:**\n✅ Shred sensitive documents\n✅ Monitor credit reports regularly\n✅ Freeze credit with bureaus\n✅ Use strong, unique passwords\n✅ Be careful on social media (don't overshare)\n✅ Secure your mail\n✅ Review financial statements monthly\n\n**If You're a Victim:**\n1. Place fraud alert on credit reports\n2. File report with FTC (identitytheft.gov)\n3. File police report\n4. Close fraudulent accounts\n5. Dispute fraudulent charges\n6. Consider identity theft protection service"
+      ]
+    },
+    {
+      "tag": "vpn_info",
+      "patterns": [
+        "what is vpn", "vpn meaning", "how vpn works", "do i need vpn",
+        "vpn benefits", "virtual private network", "best vpn",
+        "why use vpn", "vpn explained"
+      ],
+      "responses": [
+        "🔒 **VPN (Virtual Private Network) Explained:**\n\n**What is a VPN?**\nA VPN creates an encrypted tunnel between your device and the internet, hiding your online activity and location.\n\n**How It Works:**\n1. Your data is encrypted on your device\n2. Sent through secure tunnel to VPN server\n3. VPN server connects to websites on your behalf\n4. Your real IP address is hidden\n\n**Benefits:**\n✅ Privacy - Hide browsing from ISP\n✅ Security - Encrypt data on public WiFi\n✅ Access - Bypass geo-restrictions\n✅ Anonymity - Mask your IP address\n\n**When to Use VPN:**\n• Public WiFi networks\n• Accessing sensitive accounts\n• Privacy-conscious browsing\n• Remote work\n\n**Choosing a VPN:**\n• No-logs policy\n• Strong encryption (AES-256)\n• Kill switch feature\n• Multiple server locations\n\n**Recommended:**\n• ProtonVPN (free tier)\n• Mullvad (privacy-focused)\n• NordVPN, ExpressVPN (paid)"
+      ]
+    },
+    {
+      "tag": "email_security",
+      "patterns": [
+        "email security tips", "secure email", "email safety",
+        "protect email account", "email hacking prevention",
+        "suspicious email", "email scam"
+      ],
+      "responses": [
+        "📧 **Email Security Best Practices:**\n\n**Securing Your Account:**\n✅ Strong, unique password\n✅ Enable 2FA (authenticator app preferred)\n✅ Review connected apps/permissions\n✅ Check login activity regularly\n✅ Set up recovery options\n\n**Identifying Suspicious Emails:**\n🔍 Check sender's actual email address\n🔍 Hover over links before clicking\n🔍 Look for spelling/grammar errors\n🔍 Be wary of urgent language\n🔍 Verify unexpected attachments\n\n**Safe Email Practices:**\n• Don't open attachments from unknown senders\n• Never share passwords via email\n• Use separate emails for different purposes\n• Unsubscribe from unnecessary lists\n• Report phishing attempts\n\n**Red Flags:**\n⚠️ 'Verify your account immediately'\n⚠️ 'You've won a prize'\n⚠️ 'Urgent action required'\n⚠️ Mismatched URLs\n⚠️ Generic greetings ('Dear Customer')\n\n**Secure Email Providers:**\n• ProtonMail (encrypted)\n• Tutanota (encrypted)\n• Gmail/Outlook (with 2FA)"
+      ]
+    },
+    {
+      "tag": "mobile_security",
+      "patterns": [
+        "mobile security", "phone security", "smartphone security tips",
+        "secure my phone", "android security", "iphone security",
+        "mobile malware", "phone hacking"
+      ],
+      "responses": [
+        "📱 **Mobile Device Security:**\n\n**Basic Protection:**\n✅ Use strong PIN/password (not 1234 or birthday)\n✅ Enable biometric lock (fingerprint/face)\n✅ Keep OS and apps updated\n✅ Enable Find My Phone feature\n✅ Encrypt your device\n\n**App Security:**\n• Only install from official stores\n• Review app permissions carefully\n• Remove unused apps\n• Be cautious with 'free' apps\n• Read reviews before installing\n\n**Data Protection:**\n✅ Regular backups\n✅ Enable remote wipe capability\n✅ Use secure messaging (Signal)\n✅ Be careful with cloud sync\n✅ Use VPN on public networks\n\n**Avoid:**\n❌ Jailbreaking/rooting (reduces security)\n❌ Clicking links in SMS from unknown numbers\n❌ Connecting to unknown WiFi\n❌ Leaving Bluetooth always on\n❌ Using public charging stations (juice jacking)\n\n**If Phone is Stolen:**\n1. Remote lock immediately\n2. Remote wipe if necessary\n3. Change passwords from another device\n4. Contact carrier\n5. File police report"
+      ]
+    },
+    {
+      "tag": "ddos_attack",
+      "patterns": [
+        "what is ddos", "ddos attack meaning", "ddos explained",
+        "distributed denial of service", "ddos protection",
+        "how ddos works", "ddos prevention"
+      ],
+      "responses": [
+        "🌊 **DDoS Attacks Explained:**\n\n**What is DDoS?**\nDistributed Denial of Service - overwhelming a server/network with traffic from multiple sources to make it unavailable.\n\n**How It Works:**\n1. Attacker controls a 'botnet' (network of infected computers)\n2. All bots send requests to target simultaneously\n3. Target server gets overwhelmed\n4. Legitimate users can't access the service\n\n**Types of DDoS:**\n• **Volume-based** - Flood with traffic (UDP, ICMP)\n• **Protocol attacks** - Exploit network protocols (SYN flood)\n• **Application layer** - Target specific services (HTTP flood)\n\n**Impact:**\n⚠️ Website/service unavailability\n⚠️ Financial losses\n⚠️ Reputation damage\n⚠️ Can mask other attacks\n\n**Protection:**\n✅ DDoS mitigation services (Cloudflare, AWS Shield)\n✅ Rate limiting\n✅ Web Application Firewall (WAF)\n✅ Content Delivery Network (CDN)\n✅ Incident response plan\n\n**For Individuals:**\nDDoS mainly targets organizations. Keep devices secure to avoid being part of botnets."
+      ]
+    },
+    {
+      "tag": "sql_injection",
+      "patterns": [
+        "what is sql injection", "sql injection attack", "sqli",
+        "sql injection explained", "database attack", "sql injection prevention"
+      ],
+      "responses": [
+        "💉 **SQL Injection Explained:**\n\n**What is SQL Injection?**\nA code injection technique that exploits vulnerabilities in web applications to manipulate databases.\n\n**How It Works:**\n```\nNormal: SELECT * FROM users WHERE username='john'\nInjected: SELECT * FROM users WHERE username='' OR '1'='1'\n```\nThe injected code tricks the database into returning all records.\n\n**Types:**\n• **In-band SQLi** - Results shown directly\n• **Blind SQLi** - Results inferred from behavior\n• **Out-of-band SQLi** - Data exfiltrated externally\n\n**Impact:**\n⚠️ Data theft\n⚠️ Data manipulation\n⚠️ Authentication bypass\n⚠️ Complete system compromise\n\n**Prevention (for developers):**\n✅ Parameterized queries/Prepared statements\n✅ Input validation\n✅ Stored procedures\n✅ Least privilege database accounts\n✅ Web Application Firewall\n✅ Regular security testing\n\n**For Users:**\nChoose services that follow security best practices. Look for HTTPS, security certifications."
+      ]
+    },
+    {
+      "tag": "cryptocurrency_scams",
+      "patterns": [
+        "crypto scam", "cryptocurrency scam", "bitcoin scam",
+        "crypto fraud", "nft scam", "crypto investment scam",
+        "blockchain scam", "rug pull"
+      ],
+      "responses": [
+        "💰 **Cryptocurrency Scam Awareness:**\n\n**Common Crypto Scams:**\n\n1. **Investment Scams**\n   • 'Guaranteed high returns'\n   • Ponzi/pyramid schemes\n   • Fake trading platforms\n\n2. **Phishing**\n   • Fake wallet sites\n   • Impersonating exchanges\n   • Airdrop scams\n\n3. **Rug Pulls**\n   • Developers abandon project with funds\n   • Common with new tokens/NFTs\n\n4. **Romance Scams**\n   • Building trust then requesting crypto\n\n5. **Giveaway Scams**\n   • 'Send 1 BTC, get 2 back'\n   • Fake celebrity endorsements\n\n**Red Flags:**\n⚠️ Guaranteed profits\n⚠️ Pressure to invest quickly\n⚠️ Unsolicited investment advice\n⚠️ Anonymous team\n⚠️ No whitepaper or roadmap\n\n**Protection:**\n✅ Research thoroughly (DYOR)\n✅ Use reputable exchanges\n✅ Hardware wallet for storage\n✅ Never share private keys\n✅ Verify URLs carefully\n✅ If it sounds too good to be true, it is"
+      ]
+    },
+    {
+      "tag": "children_online_safety",
+      "patterns": [
+        "online safety for kids", "children internet safety", "parental controls",
+        "protect kids online", "child safety internet", "kids cyber safety",
+        "online predators", "cyberbullying"
+      ],
+      "responses": [
+        "👨‍👩‍👧‍👦 **Online Safety for Children:**\n\n**Key Risks:**\n⚠️ Cyberbullying\n⚠️ Online predators\n⚠️ Inappropriate content\n⚠️ Privacy breaches\n⚠️ Gaming/social media addiction\n\n**Parental Guidelines:**\n\n**Communication:**\n✅ Open dialogue about online activities\n✅ Teach critical thinking\n✅ Discuss dangers without fear-mongering\n✅ Be approachable for problems\n\n**Technical Controls:**\n✅ Use parental control software\n✅ Enable SafeSearch\n✅ Monitor screen time\n✅ Keep devices in common areas\n✅ Review privacy settings together\n\n**Teach Children:**\n• Never share personal info online\n• Don't talk to strangers\n• Tell parents about uncomfortable situations\n• Think before posting\n• Be kind online\n\n**Tools:**\n• Google Family Link\n• Apple Screen Time\n• Qustodio\n• Bark (monitors for concerning content)\n\n**Signs of Problems:**\n• Secretive about online activity\n• Mood changes after device use\n• New 'friends' parents don't know"
+      ]
+    },
+    {
+      "tag": "backup_importance",
+      "patterns": [
+        "why backup data", "backup importance", "how to backup",
+        "data backup tips", "backup strategy", "3-2-1 backup",
+        "cloud backup", "backup best practices"
+      ],
+      "responses": [
+        "💾 **Data Backup Best Practices:**\n\n**Why Backup?**\n• Protection against ransomware\n• Hardware failure recovery\n• Accidental deletion recovery\n• Natural disaster protection\n• Peace of mind\n\n**3-2-1 Backup Rule:**\n```\n3 - Keep 3 copies of data\n2 - On 2 different storage types\n1 - With 1 copy offsite\n```\n\n**Backup Options:**\n\n**Local:**\n• External hard drives\n• NAS (Network Attached Storage)\n• USB drives (for critical files)\n\n**Cloud:**\n• Google Drive / One Drive\n• Backblaze (unlimited)\n• iCloud\n• Dropbox\n\n**Best Practices:**\n✅ Automate backups\n✅ Encrypt sensitive data\n✅ Test restores regularly\n✅ Version history for file recovery\n✅ Separate backup account credentials\n\n**What to Backup:**\n📁 Documents & photos\n📁 Financial records\n📁 Work files\n📁 System configurations\n📁 Password manager database"
+      ]
+    },
+    {
+      "tag": "software_updates",
+      "patterns": [
+        "why update software", "software updates important", "patch management",
+        "security updates", "windows update", "update my computer",
+        "automatic updates", "why patches matter"
+      ],
+      "responses": [
+        "🔄 **Software Updates & Security Patches:**\n\n**Why Updates Matter:**\n✅ Fix security vulnerabilities\n✅ Patch known exploits\n✅ Improve performance\n✅ Add new features\n✅ Maintain compatibility\n\n**Statistics:**\n• 60% of breaches involve unpatched vulnerabilities\n• Most exploits target known (patchable) flaws\n• Average time to exploit: 15 days after patch release\n\n**What to Update:**\n1. **Operating System** - Windows, macOS, Linux\n2. **Browsers** - Chrome, Firefox, Edge\n3. **Plugins** - Java, Flash (remove if possible)\n4. **Applications** - Office, Adobe products\n5. **Antivirus** - Definitions & engine\n6. **Firmware** - Router, IoT devices\n\n**Best Practices:**\n✅ Enable automatic updates\n✅ Update within 24-48 hours of release\n✅ Prioritize security patches\n✅ Test updates in business environments\n✅ Keep inventory of software\n\n**Don't Ignore:**\n⚠️ Critical security updates\n⚠️ Zero-day patches\n⚠️ Browser updates"
+      ]
+    },
+    {
+      "tag": "antivirus_info",
+      "patterns": [
+        "do i need antivirus", "best antivirus", "antivirus recommendation",
+        "free antivirus", "antivirus vs windows defender", "malware protection",
+        "which antivirus", "antivirus software"
+      ],
+      "responses": [
+        "🛡️ **Antivirus & Malware Protection:**\n\n**Do You Need Antivirus?**\n• Windows: Windows Defender is good, but additional protection recommended\n• Mac: Less targeted but still vulnerable\n• Linux: Lower risk but not immune\n\n**What Modern AV Does:**\n✅ Real-time protection\n✅ Malware/ransomware detection\n✅ Phishing protection\n✅ Firewall integration\n✅ Web protection\n✅ Email scanning\n\n**Recommended Options:**\n\n**Free:**\n• Windows Defender (built-in)\n• Avast Free\n• AVG Free\n• Bitdefender Free\n\n**Paid (Better Protection):**\n• Bitdefender Total Security\n• Kaspersky\n• Norton 360\n• ESET\n• Malwarebytes Premium\n\n**Best Practices:**\n✅ Keep definitions updated\n✅ Run regular full scans\n✅ Don't run multiple AV simultaneously\n✅ Combine with good browsing habits\n✅ Use Malwarebytes as secondary scanner\n\n**Note:** No AV is 100% effective. Combine with safe practices!"
+      ]
+    },
+    {
+      "tag": "dark_web",
+      "patterns": [
+        "what is dark web", "dark web explained", "deep web vs dark web",
+        "is dark web illegal", "dark web dangers", "tor browser",
+        "darknet", "onion sites"
+      ],
+      "responses": [
+        "🌑 **Dark Web Explained:**\n\n**Web Layers:**\n• **Surface Web** - Indexed by search engines (Google, Bing)\n• **Deep Web** - Not indexed (email, banking, private databases)\n• **Dark Web** - Requires special software (Tor), intentionally hidden\n\n**What's on the Dark Web:**\n• Privacy-focused communication\n• Whistleblowing platforms (SecureDrop)\n• Censorship circumvention\n• Unfortunately also: illegal marketplaces, stolen data\n\n**Is It Illegal?**\n• Accessing dark web: Generally legal\n• Illegal activities there: Still illegal\n• Varies by country\n\n**Risks:**\n⚠️ Scams (markets often exit-scam)\n⚠️ Malware\n⚠️ Law enforcement monitoring\n⚠️ Disturbing content\n⚠️ Personal data for sale\n\n**Legitimate Uses:**\n✅ Journalism in oppressive regimes\n✅ Privacy research\n✅ Whistleblowing\n✅ Avoiding censorship\n\n**Our Recommendation:**\nAvoid unless you have a specific legitimate need and understand the risks."
+      ]
+    },
+    {
+      "tag": "report_cybercrime",
+      "patterns": [
+        "how to report cybercrime", "report hacking", "report scam",
+        "cyber crime complaint", "where to report cyber attack",
+        "report phishing", "cybercrime helpline"
+      ],
+      "responses": [
+        "📞 **Reporting Cybercrime:**\n\n**Global Reporting Resources:**\n\n**🇺🇸 United States:**\n• FBI IC3: ic3.gov\n• FTC: reportfraud.ftc.gov\n• CISA: cisa.gov/report\n\n**🇬🇧 United Kingdom:**\n• Action Fraud: actionfraud.police.uk\n• NCSC: ncsc.gov.uk\n\n**🇮🇳 India:**\n• Cyber Crime Portal: cybercrime.gov.in\n• Helpline: 1930\n\n**🇪🇺 European Union:**\n• Europol: europol.europa.eu\n• National CERT teams\n\n**🇦🇺 Australia:**\n• ReportCyber: cyber.gov.au\n• ACSC: cyber.gov.au/acsc\n\n**What to Report:**\n📋 Phishing attempts\n📋 Ransomware attacks\n📋 Identity theft\n📋 Online fraud\n📋 Hacking incidents\n📋 Cryptocurrency scams\n\n**When Reporting:**\n✅ Preserve evidence (screenshots, emails)\n✅ Document timeline\n✅ Note financial losses\n✅ Keep communication records\n\n**Also Contact:**\n• Your bank (for financial fraud)\n• Affected platforms (social media, etc.)\n• Your employer (if work-related)"
+      ]
+    },
+    {
+      "tag": "about_cybersight",
+      "patterns": [
+        "what is cyber sight", "about this app", "what can you do",
+        "cybersight features", "how does this work", "what is this platform",
+        "tell me about yourself", "what are you"
+      ],
+      "responses": [
+        "🔍 **About Cyber-Sight:**\n\n**Cyber-Sight** is a Global ML & AI Based Cyber Crime Detection and Safety Platform.\n\n**Our Features:**\n\n🎯 **Threat Detection**\n• ML-powered cyber threat classification\n• Risk level prediction\n• Real-time URL analysis\n\n🔗 **URL Safety Checker**\n• Phishing detection\n• Malware link identification\n• Heuristic + ML analysis\n\n🤖 **AI Chatbot**\n• Cybersecurity Q&A\n• Educational resources\n• Safety recommendations\n\n📊 **Dataset Insights**\n• Global cyber threat visualization\n• Attack pattern analysis\n• Risk statistics\n\n**Our Mission:**\nEmpowering individuals and organizations worldwide with AI-driven cybersecurity awareness and protection tools.\n\n**Note:**\n⚠️ For educational purposes\n⚠️ Does not perform actual hacking\n⚠️ No personal data storage\n⚠️ Free and open platform"
+      ]
+    },
+    {
+      "tag": "zero_day",
+      "patterns": [
+        "what is zero day", "zero day attack", "zero day vulnerability",
+        "zero day exploit", "0 day", "zero-day explained"
+      ],
+      "responses": [
+        "⏰ **Zero-Day Vulnerabilities Explained:**\n\n**What is Zero-Day?**\nA security flaw unknown to the software vendor, giving them 'zero days' to fix it before exploitation.\n\n**Timeline:**\n1. Vulnerability discovered\n2. Exploited before vendor knows\n3. Vendor learns and creates patch\n4. Patch deployed to users\n\n**Why Dangerous:**\n⚠️ No patches available\n⚠️ Antivirus may not detect\n⚠️ High value to attackers\n⚠️ Can affect millions\n\n**Famous Examples:**\n• Stuxnet (2010) - Targeted Iran's nuclear program\n• EternalBlue (2017) - Used in WannaCry\n• Log4Shell (2021) - Affected millions of systems\n\n**Protection:**\n✅ Defense in depth (multiple security layers)\n✅ Behavior-based detection\n✅ Network segmentation\n✅ Least privilege access\n✅ Quick patching when available\n✅ Threat intelligence feeds\n\n**For Individuals:**\n• Keep all software updated\n• Use modern browsers with auto-update\n• Enable security features (DEP, ASLR)"
+      ]
+    },
+    {
+      "tag": "default",
+      "patterns": [],
+      "responses": [
+        "I'm not sure I understand that question. Could you rephrase it? I can help with topics like:\n\n• Phishing & hacking\n• Password security\n• Malware protection\n• Safe browsing\n• Data breaches\n• VPN & encryption\n• Mobile security\n• Reporting cybercrime\n\nTry asking about any of these topics!",
+        "I don't have information on that specific topic. I specialize in cybersecurity awareness. You can ask me about:\n\n🔐 Password best practices\n🎣 Phishing prevention\n🦠 Malware types\n🌐 Safe browsing\n📱 Mobile security\n🔒 VPN usage\n\nHow can I help you stay safe online?",
+        "That's outside my area of expertise. I'm the Cyber-Sight AI Assistant, focused on cybersecurity education. Try asking about:\n\n• What is phishing?\n• How to create strong passwords?\n• What to do after a cyber attack?\n• Is this URL safe?\n• How to stay safe on public WiFi?"
+      ]
+    }
+  ]
+}

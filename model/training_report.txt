@@ -1,0 +1,23 @@
+CYBER-SIGHT MODEL TRAINING REPORT
+==================================================
+
+Training Date: 2026-01-01 00:46:59
+
+ATTACK TYPE CLASSIFIER
+------------------------------
+Model: SVM
+Accuracy: 0.9000
+F1 Score: 0.9000
+
+RISK LEVEL CLASSIFIER
+------------------------------
+Model: Gradient Boosting
+Accuracy: 0.9000
+F1 Score: 0.8812
+
+DATASET INFO
+------------------------------
+Training Samples: 77
+Test Samples: 20
+Features: 21
+Feature Names: domain_length, has_ip, has_https, num_dots, num_hyphens, num_underscores, num_slashes, num_digits, has_suspicious_keywords, url_length, num_at_symbols, num_question_marks, num_ampersands, num_equals, suspicious_keyword_count, has_suspicious_tld, is_safe_domain, path_depth, subdomain_count, is_shortened, url_entropy
